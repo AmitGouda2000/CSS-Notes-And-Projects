@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>AlignContent</title>
+    <style>
+      *{
+        margin:0px;
+        padding:0px;
+      }
+      #container{
+        height: 600px;
+        width: 600px;
+        border:10px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content:center;
+      }
+      .box{
+        height:100px;
+        width: 100px;
+        border:1px solid black;
+        margin:10px;
+        text-align: center;
+        
+      }
+      #box1{
+        background-color: turquoise;
+      }
+      #box2{
+        background-color: yellow;
+      }
+      #box3{
+        background-color: brown;
+      }
+      #box4{
+        background-color: blueviolet;
+      }
+      #box5{
+        background-color: azure;
+      }
+      #box6{
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box1" class="box">FlexBox1</div>
+      <div id="box2" class="box">FlexBox2</div>
+      <div id="box3" class="box">FlexBox3</div>
+      <div id="box4" class="box">FlexBox4</div>
+      <div id="box5" class="box">FlexBox5</div>
+      <div id="box6" class="box">FlexBox6</div>
+    </div>
+  </body>
+</html>

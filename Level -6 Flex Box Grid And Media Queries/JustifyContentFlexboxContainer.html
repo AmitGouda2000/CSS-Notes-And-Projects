@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>JustifyContentFlexBoxContainer</title>
+    <style>
+      *{
+        margin:0px;
+        padding:0px;
+      }
+      .container{
+        height:600px;
+        width: 600px;
+        background-color: wheat;
+        border:5px solid black;
+        display:flex;
+        justify-content:space-evenly;
+      }
+      .box{
+        height:100px;
+        width: 100px;
+        margin:10px;
+        text-align: center;
+      }
+      #box1{
+        background-color: aqua;
+      }
+      #box2{
+        background-color: blueviolet;
+      }
+      #box3{
+        background-color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box1" class="box">Box1</div>
+      <div id="box2" class="box">Box2</div>
+      <div id="box3" class="box"> Box3</div>
+    </div>
+  </body>
+</html>
